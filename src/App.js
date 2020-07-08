@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
@@ -50,6 +51,7 @@ function App() {
             React Redux
           </a>
         </span>
+        <Button color="danger">Danger!</Button>
       </header>
     </div>
   );
